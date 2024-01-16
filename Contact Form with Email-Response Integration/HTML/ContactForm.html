@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contact Form</title>
+        <meta name="Author" content="Aditya Chavan">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../CSS/ContactForm.css">
+    </head>
+    <body>
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Get in touch</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                <input type="text" name="name" placeholder="Full Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Email Address" class="contact-inputs" required>
+                <textarea name="message" placeholder="Message" class="contact-inputs" required></textarea>
+                <button type="submit">Submit <img src="../Images/arrow_icon.png" alt="arrow arrow_icon"></button>
+            </form>
+            <div class="contact-right">
+                <img src="../Images/right_img.png" alt="Graphics">
+            </div>
+        </div>
+    </body>
+</html>
